@@ -6,6 +6,10 @@
 <img src="https://img.shields.io/badge/RaspberryPi-%3E=_3.10.12-red"/>
 </p>
 
+<p align="center">
+<img src="./documentacio/raspberry-logo.png" />
+</p>
+
 Aquest projecte consisteix en un sistema de vigilància que detecta moviment mitjançant un sensor PIR, grava el vídeo amb una càmera, i envia notificacions amb el vídeo gravat a través d'un bot de Telegram. A més, es pot visualitzar el vídeo guardat a través d'un servidor de pàgina web.
 
 ## Requisits
