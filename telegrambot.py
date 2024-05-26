@@ -13,7 +13,3 @@ def enviarDocumento(ruta):
     requests.post('https://api.telegram.org/bot' + idBot + '/sendDocument',
               files={'document': (ruta, open(ruta, 'rb'))},
               data={'chat_id': idGrupo, 'caption': ' Resultats camera'})
-
-# Ejemplo de uso
-enviarMensaje("Hola, soy un bot y estoy mandando un mensaje a Telegram usando Python")
-enviarDocumento("./test.mp4")
