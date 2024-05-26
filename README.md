@@ -1,3 +1,23 @@
+# Sistema de càmera amb bot de telegram
+
+Aquest projecte consisteix en un sistema de vigilància que detecta moviment mitjançant un sensor PIR, grava el vídeo amb una càmera, i envia notificacions amb el vídeo gravat a través d'un bot de Telegram. A més, es pot visualitzar el vídeo guardat a través d'una pàgina web.
+
+## Requisits
+
+- Raspberry Pi
+- Sensor PIR
+- Càmera compatible amb Raspberry Pi
+- Connexió a internet
+- Llibreries Python: `RPi.GPIO`, `cv2` (OpenCV), `telegrambot`
+- Pàgina web per a visualitzar els vídeos
+
+## Configuració del sistema
+
+### `main.py`
+
+Aquest script principal gestiona la detecció de moviment mitjançant el sensor PIR i coordina l'enviament de notificacions i vídeos a través de Telegram.
+
+```python
 import RPi.GPIO as GPIO
 from telegrambot import enviarMensaje, enviarDocumento
 import time
@@ -65,3 +85,5 @@ except KeyboardInterrupt:
     print("\nS'ha interromput l'execució del programa.")
 finally:
     GPIO.cleanup()  # Restaura la configuració dels pins GPIO
+
+```
