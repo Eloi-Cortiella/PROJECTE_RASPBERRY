@@ -45,9 +45,9 @@ Aquest projecte consisteix en un sistema de vigilància que detecta moviment mit
 </p>
 
 
-### Programari
+## Programari
 
-#### Instal·lació de dependències
+### Instal·lació de dependències
 
 Instal·la les següents dependències utilitzant pip:
 
