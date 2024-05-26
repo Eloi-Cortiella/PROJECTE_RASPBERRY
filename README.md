@@ -1,4 +1,10 @@
-# Sistema de càmera amb bot de telegram - E3 Security
+<h1 align="center">Sistema de càmera amb bot de telegram - E3 Security - ASIX 2023/2024</h1>
+
+<p align="center">
+<img src="https://img.shields.io/badge/python-%3E=_3.10.12-blue"/>
+<img src="https://img.shields.io/badge/PyPi-%3E=_3.10.12-green"/>
+<img src="https://img.shields.io/badge/RaspberryPi-%3E=_3.10.12-red"/>
+</p>
 
 Aquest projecte consisteix en un sistema de vigilància que detecta moviment mitjançant un sensor PIR, grava el vídeo amb una càmera, i envia notificacions amb el vídeo gravat a través d'un bot de Telegram. A més, es pot visualitzar el vídeo guardat a través d'un servidor de pàgina web.
 
@@ -26,6 +32,19 @@ Aquest projecte consisteix en un sistema de vigilància que detecta moviment mit
 
 2. Connecta la càmera compatible amb la Raspberry Pi al connector CSI.
 
+## Exemple de connexió camera
+
+<p align="center">
+<img align="center" src="./documentacio/connect-camera.gif"/>
+</p>
+
+## Exemple de connexió sensor de moviment
+
+<p align="center">
+<img align="center" src="./documentacio/pir-diagram.png"/>
+</p>
+
+
 ### Programari
 
 #### Instal·lació de dependències
@@ -33,7 +52,7 @@ Aquest projecte consisteix en un sistema de vigilància que detecta moviment mit
 Instal·la les següents dependències utilitzant pip:
 
 ```bash
-pip install requests certifi chardet idna urllib3 pyOpenSSL cryptography six numpy opencv-python-headless imageio[ffmpeg]
+pip install requests certifi chardet idna urllib3 pyOpenSSL cryptography six numpy opencv-python-headless imageio[ffmpeg] Jinja2>=3.1.2 Werkzeug>=3.0.0 blinker>=1.6.2 itsdangerous>=2.1.2 click>=8.1.3 MarkupSafe>=2.0 pillow>=8.3.2
 ```
 
 ## Estructura del projecte
@@ -263,6 +282,15 @@ if __name__ == '__main__':
 
 # Resultats (En procés)
 
+## 1. Resultat scripts de python (DEFINITIU)
+
+## 2. Pàgina web del servidor:
+
+Veurem el contingut del index.html sense obrir el servidor entrant a la url ```http://localhost:5500 o http://127.0.0.1:5500/index.html```
+
+<p align="center">
+<img src="./documentacio/prova-index.png" />
+</p>
 
 
 # Conclusions
