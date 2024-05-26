@@ -1,4 +1,4 @@
-<h1 align="center">Sistema de càmera amb bot de telegram - E3 Security - ASIX 2023/2024</h1>
+<h1 align="center">Sistema de càmera amb bot de telegram - E3 Security - ASIX 2023/2024 - EloiCortiella</h1>
 
 <p align="center">
 <img src="https://img.shields.io/badge/python-%3E=_3.10.12-blue"/>
