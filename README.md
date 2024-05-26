@@ -10,6 +10,8 @@
 <img src="./documentacio/raspberry-logo.png" />
 </p>
 
+## Explicació
+
 Aquest projecte consisteix en un sistema de vigilància que detecta moviment mitjançant un sensor PIR, grava el vídeo amb una càmera, i envia notificacions amb el vídeo gravat a través d'un bot de Telegram. A més, es pot visualitzar el vídeo guardat a través d'un servidor de pàgina web.
 
 ## Requisits
@@ -48,6 +50,12 @@ Aquest projecte consisteix en un sistema de vigilància que detecta moviment mit
 <img align="center" src="./documentacio/pir-diagram.png"/>
 </p>
 
+## Exemple de connexió breadboard
+
+<p align="center">
+<img align="center" src="./documentacio/breadboard.jpg" height="400px"/>
+<img align="center" src="./documentacio/breadboard2.jpg"/>
+</p>
 
 ## Programari
 
