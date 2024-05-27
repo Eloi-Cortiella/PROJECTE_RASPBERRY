@@ -1,0 +1,14 @@
+[project]
+name = "mp14"
+requires-python = ">=3.11.0"
+dependencies = [
+  "requests",
+  "opencv-python",
+  "imageio[ffmpeg]",
+  "flask",
+]
+version = "0.1.0"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
