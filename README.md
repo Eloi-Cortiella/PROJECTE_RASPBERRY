@@ -365,7 +365,9 @@ if __name__ == '__main__':
 
 # Resultats (En procés)
 
-## 1. Resultat scripts de python (DEFINITIU)
+## 1. Resultat scripts de python
+
+https://github.com/Eloi-Cortiella/PROJECTE_RASPBERRY/blob/main/documentacio/comprovaci%C3%B3-script.mp4
 
 <p align="center">
     <video controls loop>
