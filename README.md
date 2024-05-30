@@ -374,6 +374,8 @@ if __name__ == '__main__':
 
 ## Resultats de la càmera detectant la cara
 
+https://github.com/Eloi-Cortiella/PROJECTE_RASPBERRY/blob/main/documentacio/comprovacio-index.mp4
+
 <p align="center">
     <video controls loop>
         <source src="./documentacio/comprovacio-index.mp4" type="video/mp4">
