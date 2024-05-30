@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/python-%3E=_3.10.12-blue"/>
 <img src="https://img.shields.io/badge/PyPi-%3E=latest-green"/>
 <img src="https://img.shields.io/badge/RaspberryPi-%3E=latest-red"/>
-<img src="https://img.shields.io/badge/Html5-%3E=_3.10.12-orange"/>
+<img src="https://img.shields.io/badge/Html5-%3E=latest-orange"/>
 </p>
 
 <p align="center">
