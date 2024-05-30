@@ -26,6 +26,20 @@ Aquest projecte consisteix en un sistema de vigilància que detecta moviment mit
     - **flask**: Jinja2>=3.1.2, Werkzeug>=3.0.0, blinker>=1.6.2, itsdangerous>=2.1.2, click>=8.1.3, MarkupSafe>=2.0
 - Servidor de pàgina web per a visualitzar els vídeos
 
+## Pressupost
+
+<p align=center>
+
+| Nom Producte              | Preu (unitari) | Total        |
+|---------------------------|----------------|--------------|
+| Raspberrypi 4 (1GB)       | €75.00         | €75.00       |
+| Mòdul Càmera Raspberry Pi | €25.00         | €25.00       |
+| Sensor de moviment PIR    | €8.00          | €8.00        |
+| ProtoBoard Raspberry Pi   | €10.00         | €10.00       |
+| **Total**                 |                | **€118.00 aprox.**  |
+
+</p>
+
 ## Configuració del sistema
 
 ### Maquinari
