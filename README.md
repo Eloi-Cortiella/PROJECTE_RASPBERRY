@@ -420,3 +420,8 @@ Aquest projecte proporciona una solució completa de vigilància que combina un 
 Amb aquest sistema, els usuaris poden estar segurs que seran notificats immediatament quan es detecti moviment i podran veure els vídeos gravats de manera convenient a través de Telegram o d'una pàgina web.
 
 Hem pogut concluir que ha estat un projecte més avançat de l'usual, a causa de les complicacions que hem tingut amb la raspberrypi, ja sigui pel tema de instal·lacions, compatibilitat de paquets, ús de sensors...etc. No obstant, creiem que ha estat interessant el procés d'investigació sobre el funcionament d'una raspberrypi, és algo en el que teniem una experiència nul·la i, amb el ajustat temps que hem tingut, hem pogut trobar les solucions adequades per poder seguir endavant.
+
+
+## Resultats de tots els videos (Si no voleu descargar)
+
+https://drive.google.com/drive/folders/1ivdi8cfPONNxWW7gIChXg5scuypbqe8T?usp=sharing
