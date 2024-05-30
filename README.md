@@ -61,13 +61,12 @@ Obrirem les pestanyes que soporten la càmera i introduïrem dins la zona de pl�
 
 Com hem dit abans, per poder usar el sensor de moviment, haurem de connectar els pins que requereix aquest sensor. El pins serien els següents:
 
-- Pin de 5V i pin GND: Aquest seràn els pins per a l'alimentació del sensor i pugui funcionar.
-- Pin GPIO: Aquest pin en serveix per a que el script que executem pugui detectar el comportament del sensor de moviment. En el nostre cas, l'hem col·locat al GPIO 18, però pot funcionar en qualsevol altre pin de tipus GPIO (com és el cas del de l'imatge):
+- **Pin de 5V i pin GND:** Aquest seràn els pins per a l'alimentació del sensor i pugui funcionar.
+- **Pin GPIO:** Aquest pin en serveix per a que el script que executem pugui detectar el comportament del sensor de moviment. En el nostre cas, l'hem col·locat al GPIO 18, però pot funcionar en qualsevol altre pin de tipus GPIO (com és el cas del de l'imatge):
 
 <p align="center">
 <img align="center" src="./documentacio/pir-diagram.png"/>
 </p>
-
 
 ## Programari
 
